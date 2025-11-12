@@ -36,8 +36,11 @@
   "dependencies": {
     "less": "^4.2.0"
   },
-  "main": "./less2.plugin.js",
+  "main": "src/less2.plugin.js",
   "scripts": {
     "test": "echo \"No tests configured\""
-  }
+  },
+  "files": [
+    "src/"
+  ]
 }
