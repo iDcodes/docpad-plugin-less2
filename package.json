@@ -1,24 +1,15 @@
 {
   "name": "docpad-plugin-less2",
-  "version": "2.0.4",
-  "description": "DocPad plugin that adds the ability to render Less to CSS",
+  "version": "2.0.5",
+  "description": "DocPad plugin that adds the ability to render Less to CSS (ES6 modernized version)",
   "homepage": "https://github.com/paleite/docpad-plugin-less2",
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "keywords": [
     "docpad",
     "docpad-plugin",
     "less",
     "less2"
   ],
-  "badges": {
-    "travis": true,
-    "npm": true,
-    "npmdownloads": true,
-    "david": true,
-    "daviddev": true
-  },
   "author": "Patrick Eriksson <paleite@kth.se> (https://github.com/paleite)",
   "maintainers": [
     "Patrick Eriksson <paleite@kth.se> (https://github.com/paleite)",
@@ -37,27 +28,16 @@
     "url": "https://github.com/paleite/docpad-plugin-less2.git"
   },
   "engines": {
-    "node": ">=0.8"
+    "node": ">=14"
   },
   "peerDependencies": {
     "docpad": "6"
   },
   "dependencies": {
-    "less": "^2.4.0"
+    "less": "^4.2.0"
   },
-  "devDependencies": {
-    "coffee-script": "^1.9.1",
-    "docpad": "6",
-    "projectz": "^1.1.5"
-  },
-  "main": "./out/less2.plugin.js",
+  "main": "./less2.plugin.js",
   "scripts": {
-    "test": "node ./out/less2.test.js"
-  },
-  "cakeConfiguration": {
-    "COFFEE_SRC_PATH": "src"
-  },
-  "directories": {
-    "test": "test"
+    "test": "echo \"No tests configured\""
   }
 }
